@@ -16,7 +16,7 @@
  */
 package org.apache.marmotta.commons.sesame.rio.vcard;
 
-import org.openrdf.rio.RDFFormat;
+import org.eclipse.rdf4j.rio.RDFFormat;
 
 import java.nio.charset.Charset;
 import java.util.Arrays;

@@ -20,7 +20,8 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import static org.junit.Assume.assumeThat;
 
-import info.aduna.iteration.Iterations;
+//import info.aduna.iteration.Iterations;
+import org.eclipse.rdf4j.common.iteration.Iterations;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -33,12 +34,12 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openrdf.query.BooleanQuery;
-import org.openrdf.query.QueryLanguage;
-import org.openrdf.repository.Repository;
-import org.openrdf.repository.RepositoryConnection;
-import org.openrdf.repository.sail.SailRepository;
-import org.openrdf.sail.memory.MemoryStore;
+import org.eclipse.rdf4j.query.BooleanQuery;
+import org.eclipse.rdf4j.query.QueryLanguage;
+import org.eclipse.rdf4j.repository.Repository;
+import org.eclipse.rdf4j.repository.RepositoryConnection;
+import org.eclipse.rdf4j.repository.sail.SailRepository;
+import org.eclipse.rdf4j.sail.memory.MemoryStore;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

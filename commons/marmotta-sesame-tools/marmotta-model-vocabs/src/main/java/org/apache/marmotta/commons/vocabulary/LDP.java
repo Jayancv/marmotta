@@ -16,9 +16,9 @@
  */
 package org.apache.marmotta.commons.vocabulary;
 
-import org.openrdf.model.URI;
-import org.openrdf.model.ValueFactory;
-import org.openrdf.model.impl.ValueFactoryImpl;
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.ValueFactory;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 
 /**
  * W3C Linked Data Platform (LDP).
@@ -53,7 +53,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#BasicContainer">BasicContainer</a>
      */
-    public static final URI BasicContainer;
+    public static final IRI BasicContainer;
 
     /**
      * Container
@@ -67,7 +67,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#Container">Container</a>
      */
-    public static final URI Container;
+    public static final IRI Container;
 
     /**
      * contains
@@ -78,7 +78,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#contains">contains</a>
      */
-    public static final URI contains;
+    public static final IRI contains;
 
     /**
      * DirectContainer
@@ -91,7 +91,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#DirectContainer">DirectContainer</a>
      */
-    public static final URI DirectContainer;
+    public static final IRI DirectContainer;
 
     /**
      * hasMemberRelation
@@ -104,7 +104,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#hasMemberRelation">hasMemberRelation</a>
      */
-    public static final URI hasMemberRelation;
+    public static final IRI hasMemberRelation;
 
     /**
      * IndirectContainer
@@ -116,7 +116,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#IndirectContainer">IndirectContainer</a>
      */
-    public static final URI IndirectContainer;
+    public static final IRI IndirectContainer;
 
     /**
      * insertedContentRelation
@@ -129,7 +129,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#insertedContentRelation">insertedContentRelation</a>
      */
-    public static final URI insertedContentRelation;
+    public static final IRI insertedContentRelation;
 
     /**
      * isMemmberOfRelation
@@ -142,7 +142,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#isMemberOfRelation">isMemberOfRelation</a>
      */
-    public static final URI isMemberOfRelation;
+    public static final IRI isMemberOfRelation;
 
     /**
      * member
@@ -154,7 +154,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#member">member</a>
      */
-    public static final URI member;
+    public static final IRI member;
 
     /**
      * membershipResource
@@ -169,7 +169,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#membershipResource">membershipResource</a>
      */
-    public static final URI membershipResource;
+    public static final IRI membershipResource;
 
     /**
      * MemberSubject
@@ -183,7 +183,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#MemberSubject">MemberSubject</a>
      */
-    public static final URI MemberSubject;
+    public static final IRI MemberSubject;
 
     /**
      * NonRDFSource
@@ -195,7 +195,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#NonRDFSource">NonRDFSource</a>
      */
-    public static final URI NonRDFSource;
+    public static final IRI NonRDFSource;
 
     /**
      * PreferContainment
@@ -207,7 +207,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#PreferContainment">PreferContainment</a>
      */
-    public static final URI PreferContainment;
+    public static final IRI PreferContainment;
 
     /**
      * PreferEmptyContainer
@@ -224,7 +224,7 @@ public class LDP {
      * @deprecated use {@link #PreferMinimalContainer} instead
      */
     @Deprecated
-    public static final URI PreferEmptyContainer;
+    public static final IRI PreferEmptyContainer;
 
     /**
      * PreferMinimalContainer
@@ -239,7 +239,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#PreferMinimalContainer">PreferMinimalContainer</a>
     */
-    public static final URI PreferMinimalContainer;
+    public static final IRI PreferMinimalContainer;
 
     /**
      * PreferMembership
@@ -251,7 +251,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#PreferMembership">PreferMembership</a>
      */
-    public static final URI PreferMembership;
+    public static final IRI PreferMembership;
 
     /**
      * RDFSource
@@ -263,7 +263,7 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#RDFSource">RDFSource</a>
      */
-    public static final URI RDFSource;
+    public static final IRI RDFSource;
 
     /**
      * Resource
@@ -275,29 +275,29 @@ public class LDP {
      *
      * @see <a href="http://www.w3.org/ns/ldp#Resource">Resource</a>
      */
-    public static final URI Resource;
+    public static final IRI Resource;
 
     static {
-        ValueFactory factory = ValueFactoryImpl.getInstance();
+        ValueFactory factory = SimpleValueFactory.getInstance();
 
-        BasicContainer = factory.createURI(LDP.NAMESPACE, "BasicContainer");
-        Container = factory.createURI(LDP.NAMESPACE, "Container");
-        contains = factory.createURI(LDP.NAMESPACE, "contains");
-        DirectContainer = factory.createURI(LDP.NAMESPACE, "DirectContainer");
-        hasMemberRelation = factory.createURI(LDP.NAMESPACE, "hasMemberRelation");
-        IndirectContainer = factory.createURI(LDP.NAMESPACE, "IndirectContainer");
-        insertedContentRelation = factory.createURI(LDP.NAMESPACE, "insertedContentRelation");
-        isMemberOfRelation = factory.createURI(LDP.NAMESPACE, "isMemberOfRelation");
-        member = factory.createURI(LDP.NAMESPACE, "member");
-        membershipResource = factory.createURI(LDP.NAMESPACE, "membershipResource");
-        MemberSubject = factory.createURI(LDP.NAMESPACE, "MemberSubject");
-        NonRDFSource = factory.createURI(LDP.NAMESPACE, "NonRDFSource");
-        PreferContainment = factory.createURI(LDP.NAMESPACE, "PreferContainment");
-        PreferEmptyContainer = factory.createURI(LDP.NAMESPACE, "PreferEmptyContainer");
-        PreferMembership = factory.createURI(LDP.NAMESPACE, "PreferMembership");
-        PreferMinimalContainer = factory.createURI(LDP.NAMESPACE, "PreferMinimalContainer");
-        RDFSource = factory.createURI(LDP.NAMESPACE, "RDFSource");
-        Resource = factory.createURI(LDP.NAMESPACE, "Resource");
+        BasicContainer = factory.createIRI(LDP.NAMESPACE, "BasicContainer");
+        Container = factory.createIRI(LDP.NAMESPACE, "Container");
+        contains = factory.createIRI(LDP.NAMESPACE, "contains");
+        DirectContainer = factory.createIRI(LDP.NAMESPACE, "DirectContainer");
+        hasMemberRelation = factory.createIRI(LDP.NAMESPACE, "hasMemberRelation");
+        IndirectContainer = factory.createIRI(LDP.NAMESPACE, "IndirectContainer");
+        insertedContentRelation = factory.createIRI(LDP.NAMESPACE, "insertedContentRelation");
+        isMemberOfRelation = factory.createIRI(LDP.NAMESPACE, "isMemberOfRelation");
+        member = factory.createIRI(LDP.NAMESPACE, "member");
+        membershipResource = factory.createIRI(LDP.NAMESPACE, "membershipResource");
+        MemberSubject = factory.createIRI(LDP.NAMESPACE, "MemberSubject");
+        NonRDFSource = factory.createIRI(LDP.NAMESPACE, "NonRDFSource");
+        PreferContainment = factory.createIRI(LDP.NAMESPACE, "PreferContainment");
+        PreferEmptyContainer = factory.createIRI(LDP.NAMESPACE, "PreferEmptyContainer");
+        PreferMembership = factory.createIRI(LDP.NAMESPACE, "PreferMembership");
+        PreferMinimalContainer = factory.createIRI(LDP.NAMESPACE, "PreferMinimalContainer");
+        RDFSource = factory.createIRI(LDP.NAMESPACE, "RDFSource");
+        Resource = factory.createIRI(LDP.NAMESPACE, "Resource");
     }
 
     private LDP() {

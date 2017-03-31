@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-sail-memory:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 423, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-sail-inferencer:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 428, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-model:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 467, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-repository-api:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 471, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-repository-event:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 475, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-repository-sail:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 479, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:srdf4j-rio-api:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 483, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-rdfjson:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 487, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-rdfxml:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 491, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-trix:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 495, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-turtle:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 499, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-n3:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 503, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-ntriples:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 507, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-trig:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 511, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-sail-api:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 515, column 21
+[ERROR] 'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-sail-memory:jar is missing. @ org.apache.marmotta:marmotta-ldp:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-ldp/pom.xml, line 275, column 21
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.marmotta:marmotta-core:3.4.0-SNAPSHOT (/home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml) has 15 errors
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-sail-memory:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 423, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-sail-inferencer:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 428, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-model:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 467, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-repository-api:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 471, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-repository-event:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 475, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-repository-sail:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 479, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:srdf4j-rio-api:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 483, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-rdfjson:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 487, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-rdfxml:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 491, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-trix:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 495, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-turtle:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 499, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-n3:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 503, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-ntriples:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 507, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-rio-trig:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 511, column 21
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-sail-api:jar is missing. @ org.apache.marmotta:marmotta-core:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-core/pom.xml, line 515, column 21
+[ERROR]   
+[ERROR]   The project org.apache.marmotta:marmotta-ldp:3.4.0-SNAPSHOT (/home/jayan/Desktop/GSoC/marmotta/platform/marmotta-ldp/pom.xml) has 1 error
+[ERROR]     'dependencies.dependency.version' for org.eclipse.rdf4j:rdf4j-sail-memory:jar is missing. @ org.apache.marmotta:marmotta-ldp:[unknown-version], /home/jayan/Desktop/GSoC/marmotta/platform/marmotta-ldp/pom.xml, line 275, column 21
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
